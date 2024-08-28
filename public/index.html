@@ -34,11 +34,11 @@
                 tabindex="0"
                 class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
               >
-                <li><a>Home</a></li>
-                <li>
-                  <a>Complaints</a>
-                </li>
-                <li><a>Scams</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#complain">Complaints</a></li>
+                <li><a href="#crime">Crime</a></li>
+                <li><a href="#stat">Statistics</a></li>
+                <li><a href="#about">About Us</a></li>
               </ul>
             </div>
             <!-- logo -->
@@ -60,9 +60,11 @@
           </div>
           <div class="navbar-center hidden lg:flex">
             <ul class="menu menu-horizontal px-1">
-              <li><a>Home</a></li>
-              <li><a href="">Complaints</a></li>
-              <li><a>Scam</a></li>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="#complain">Complaints</a></li>
+              <li><a href="#crime">Crime</a></li>
+              <li><a href="#stat">Statistics</a></li>
+              <li><a href="#about">About Us</a></li>
             </ul>
           </div>
           <div class="navbar-end">
@@ -74,7 +76,7 @@
     <!-- main -->
     <main class="mt-16">
       <!-- hero section -->
-      <div id="hero" class="pb-16">
+      <div id="hero" class="p-8 md:p-10 lg:px-16 lg:py-24">
         <!-- hero wrapper -->
         <div
           class="flex flex-col lg:flex-row lg:items-center lg:justify-center lg:gap-8"
@@ -119,120 +121,314 @@
         </div>
       </div>
       <!-- news -->
-      <section class="py-10 bg-white sm:py-16 lg:py-24">
-  <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
-    <div class="max-w-2xl mx-auto text-center">
-      <h2
-        class="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl"
-      >
-        Recent Crime Reports
-      </h2>
-      <p
-        class="max-w-xl mx-auto mt-4 text-base leading-relaxed text-gray-600"
-      >
-        Stay informed about the latest incidents in your area. These reports are updated regularly to help keep our community safe.
-      </p>
-    </div>
+      <section id="crime" class="py-10 bg-white sm:py-16 lg:py-24">
+        <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
+          <div class="max-w-2xl mx-auto text-center">
+            <h2
+              class="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl"
+            >
+              Recent Crime Reports
+            </h2>
+            <p
+              class="max-w-xl mx-auto mt-4 text-base leading-relaxed text-gray-600"
+            >
+              Stay informed about the latest incidents in your area. These
+              reports are updated regularly to help keep our community safe.
+            </p>
+          </div>
 
-    <div
-      class="grid max-w-md grid-cols-1 mx-auto mt-12 lg:max-w-full lg:mt-16 lg:grid-cols-3 gap-x-16 gap-y-12"
-    >
-      <div>
-        <a href="#" title="View report details" class="block aspect-w-4 aspect-h-3">
-          <img
-            class="object-cover w-full h-[90%]"
-            src="./Image/crime/burgke.jpg"
-            alt="Crime scene"
-          />
-        </a>
-        <span
-          class="inline-flex px-4 py-2 text-xs font-semibold tracking-widest uppercase rounded-full text-red-500 bg-red-100 mt-9"
-        >
-          Burglary
-        </span>
-        <p class="mt-6 text-xl font-semibold">
-          <a href="#" title="View report details" class="text-black">
-            Home Invasion on Maple Street
-          </a>
-        </p>
-        <p class="mt-4 text-gray-600">
-          A home invasion was reported on Maple Street in the early hours of Monday. The suspect is still at large.
-        </p>
+          <div
+            class="grid max-w-md grid-cols-1 mx-auto mt-12 lg:max-w-full lg:mt-16 lg:grid-cols-3 gap-x-16 gap-y-12"
+          >
+            <div>
+              <a
+                href="#"
+                title="View report details"
+                class="block aspect-w-4 aspect-h-3"
+              >
+                <img
+                  class="object-cover w-full h-[90%]"
+                  src="./Image/crime/burgke.jpg"
+                  alt="Crime scene"
+                />
+              </a>
+              <span
+                class="inline-flex px-4 py-2 text-xs font-semibold tracking-widest uppercase rounded-full text-red-500 bg-red-100 mt-9"
+              >
+                Burglary
+              </span>
+              <p class="mt-6 text-xl font-semibold">
+                <a href="#" title="View report details" class="text-black">
+                  Home Invasion on Maple Street
+                </a>
+              </p>
+              <p class="mt-4 text-gray-600">
+                A home invasion was reported on Maple Street in the early hours
+                of Monday. The suspect is still at large.
+              </p>
+              <div
+                class="h-0 mt-6 mb-4 border-t-2 border-gray-200 border-dashed"
+              ></div>
+              <span
+                class="block text-sm font-bold tracking-widest text-gray-500 uppercase"
+              >
+                Officer Daniels . July 15, 2024
+              </span>
+            </div>
+
+            <div>
+              <a
+                href="#"
+                title="View report details"
+                class="block aspect-w-4 aspect-h-3"
+              >
+                <img
+                  class="object-cover w-full h-[90%]"
+                  src="./Image/crime/vand.jpg"
+                  alt="Crime scene"
+                />
+              </a>
+              <span
+                class="inline-flex px-4 py-2 text-xs font-semibold tracking-widest uppercase rounded-full text-blue-500 bg-blue-100 mt-9"
+              >
+                Vandalism
+              </span>
+              <p class="mt-6 text-xl font-semibold">
+                <a href="#" title="View report details" class="text-black">
+                  Graffiti Found on City Hall Walls
+                </a>
+              </p>
+              <p class="mt-4 text-gray-600">
+                City Hall was vandalized with graffiti last night. Authorities
+                are reviewing security footage to identify the culprit.
+              </p>
+              <div
+                class="h-0 mt-6 mb-4 border-t-2 border-gray-200 border-dashed"
+              ></div>
+              <span
+                class="block text-sm font-bold tracking-widest text-gray-500 uppercase"
+              >
+                Officer Smith . July 14, 2024
+              </span>
+            </div>
+
+            <div>
+              <a
+                href="#"
+                title="View report details"
+                class="block aspect-w-4 aspect-h-3"
+              >
+                <img
+                  class="object-cover w-full h-[90%]"
+                  src="./Image/crime/car.jpg"
+                  alt="Crime scene"
+                />
+              </a>
+              <span
+                class="inline-flex px-4 py-2 text-xs font-semibold tracking-widest uppercase rounded-full text-green-500 bg-green-100 mt-9"
+              >
+                Theft
+              </span>
+              <p class="mt-6 text-xl font-semibold">
+                <a href="#" title="View report details" class="text-black">
+                  Car Stolen from Downtown Area
+                </a>
+              </p>
+              <p class="mt-4 text-gray-600">
+                A car was stolen from the downtown area on Sunday afternoon.
+                Witnesses described the suspect as a male in his 20s.
+              </p>
+              <div
+                class="h-0 mt-6 mb-4 border-t-2 border-gray-200 border-dashed"
+              ></div>
+              <span
+                class="block text-sm font-bold tracking-widest text-gray-500 uppercase"
+              >
+                Officer Lee . July 13, 2024
+              </span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- about -->
+      <div id="stat" class="p-8 md:p-10 lg:px-16 lg:py-24">
+        <!-- hero wrapper -->
         <div
-          class="h-0 mt-6 mb-4 border-t-2 border-gray-200 border-dashed"
-        ></div>
-        <span
-          class="block text-sm font-bold tracking-widest text-gray-500 uppercase"
+          class="flex flex-col lg:flex-row-reverse lg:items-center lg:justify-center lg:gap-8"
         >
-          Officer Daniels . July 15, 2024
-        </span>
+          <!-- img-wraper -->
+          <div class="lg:w-6/12">
+            <img
+              src="https://www.ic3.gov/Content/v2/images/ComplaintsAndLosses2022.png"
+              alt=""
+            />
+          </div>
+          <!-- text-content wrapper -->
+          <div class="px-8 lg:w-5/12 md:text-center lg:text-left">
+            <h1 class="text-3xl mt-8 lg:mt-0 mb-4">
+              Protecting our digitally-connected world is a top priority and
+              focus of the CRC.
+            </h1>
+            <!-- typography -->
+            <div class="space-y-5 lg:space-y-4 lg:text-sm">
+              <div>
+                <h1 class="text-lg font-bold">But we can't do it alone</h1>
+                <p>
+                  Between staying connected with family and friends, shopping
+                  and banking online, and working remotely, we all depend on
+                  security in our interconnected digital world. Criminals from
+                  every corner of the globe attack our digital systems on a near
+                  constant basis. They strike targets large and small—from
+                  corporate networks to personal smart phones. No one—and no
+                  device—is immune from the threat. The only way forward is
+                  together. In cyber security, where a single compromise can
+                  impact millions of people, there can be no weak links. Every
+                  organization and every individual needs to take smart,
+                  reasonable steps to protect their own devices and systems and
+                  to learn how to spot and avoid scams.
+                </p>
+              </div>
+            </div>
+            <button class="btn btn-warning w-full mt-6">
+              File a Complaint
+            </button>
+          </div>
+        </div>
       </div>
-
-      <div>
-        <a href="#" title="View report details" class="block aspect-w-4 aspect-h-3">
-          <img
-            class="object-cover w-full h-[90%]"
-            src="./Image/crime/vand.jpg"
-            alt="Crime scene"
-          />
-        </a>
-        <span
-          class="inline-flex px-4 py-2 text-xs font-semibold tracking-widest uppercase rounded-full text-blue-500 bg-blue-100 mt-9"
-        >
-          Vandalism
-        </span>
-        <p class="mt-6 text-xl font-semibold">
-          <a href="#" title="View report details" class="text-black">
-            Graffiti Found on City Hall Walls
-          </a>
-        </p>
-        <p class="mt-4 text-gray-600">
-          City Hall was vandalized with graffiti last night. Authorities are reviewing security footage to identify the culprit.
-        </p>
+      <!-- complaints -->
+      <div id="complain" class="p-8 md:p-10 lg:px-16 lg:py-24 bg-white">
+        <!-- hero wrapper -->
         <div
-          class="h-0 mt-6 mb-4 border-t-2 border-gray-200 border-dashed"
-        ></div>
-        <span
-          class="block text-sm font-bold tracking-widest text-gray-500 uppercase"
+          class="flex flex-col lg:flex-row lg:items-center lg:justify-center lg:gap-8"
         >
-          Officer Smith . July 14, 2024
-        </span>
+          <!-- img-wraper -->
+          <div class="lg:w-6/12">
+            <img
+              src="https://www.ic3.gov/Content/v2/images/CyberSecurity.png"
+              alt=""
+              class="w-full"
+            />
+          </div>
+          <!-- text-content wrapper -->
+          <div class="px-8 lg:w-5/12 md:text-center lg:text-left">
+            <h1 class="text-3xl mt-8 lg:mt-0 mb-4">
+              Reporting a crime makes our community safer.
+            </h1>
+            <!-- typography -->
+            <div class="space-y-5 lg:space-y-4 lg:text-sm">
+              <div>
+                <h1 class="text-lg font-bold">
+                  The information you submit to CRC makes all the difference.
+                </h1>
+                <p>
+                  Combined with other data, it allows the CRC to investigate
+                  reported crimes, track trends and threats, and, in some cases,
+                  even freeze stolen funds. Just as importantly, IC3 shares
+                  reports of crime throughout its vast network of FBI field
+                  offices and law enforcement partners, strengthening our
+                  nation’s collective response both locally and nationally.
+                </p>
+              </div>
+            </div>
+            <button class="btn btn-warning w-full mt-6">
+              File a Complaint
+            </button>
+          </div>
+        </div>
       </div>
-
-      <div>
-        <a href="#" title="View report details" class="block aspect-w-4 aspect-h-3">
-          <img
-            class="object-cover w-full h-[90%]"
-            src="./Image/crime/car.jpg"
-            alt="Crime scene"
-          />
-        </a>
-        <span
-          class="inline-flex px-4 py-2 text-xs font-semibold tracking-widest uppercase rounded-full text-green-500 bg-green-100 mt-9"
-        >
-          Theft
-        </span>
-        <p class="mt-6 text-xl font-semibold">
-          <a href="#" title="View report details" class="text-black">
-            Car Stolen from Downtown Area
-          </a>
-        </p>
-        <p class="mt-4 text-gray-600">
-          A car was stolen from the downtown area on Sunday afternoon. Witnesses described the suspect as a male in his 20s.
-        </p>
-        <div
-          class="h-0 mt-6 mb-4 border-t-2 border-gray-200 border-dashed"
-        ></div>
-        <span
-          class="block text-sm font-bold tracking-widest text-gray-500 uppercase"
-        >
-          Officer Lee . July 13, 2024
-        </span>
-      </div>
-    </div>
-  </div>
-</section>
-
     </main>
+    <!-- Footer -->
+    <footer class="bg-base-100 text-gray-600 body-font">
+      <div
+        class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col"
+      >
+        <a
+          class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900"
+        >
+          <img
+            src="./Image/logo.png"
+            alt="Crime Report Center Logo"
+            class="w-10 h-10 text-white p-2 bg-yellow-500 rounded-full"
+          />
+          <span class="ml-3 text-xl">Crime Report Center</span>
+        </a>
+        <p
+          class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4"
+        >
+          © 2024 Crime Report Center —
+          <a
+            href="https://twitter.com/CrimeReportCenter"
+            class="text-gray-600 ml-1"
+            target="_blank"
+            rel="noopener noreferrer"
+            >@CrimeReportCenter</a
+          >
+        </p>
+        <span
+          class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start"
+        >
+          <a href="#" class="text-gray-500">
+            <svg
+              fill="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              class="w-5 h-5"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M18 2h-3.4A5.6 5.6 0 009 7.6V10H6v4h3v10h4v-10h3.4l.6-4h-4V7.6a1.6 1.6 0 011.6-1.6H18V2z"
+              ></path>
+            </svg>
+          </a>
+          <a href="#" class="ml-3 text-gray-500">
+            <svg
+              fill="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              class="w-5 h-5"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M23 3a10.9 10.9 0 01-3.14 1.53A4.48 4.48 0 0022.43 1s-4.23 2-7.45 2A4.48 4.48 0 0012 6.56V8A11.49 11.49 0 013 2.47S-.5 12.43 8.5 16.57A11.64 11.64 0 012 19.8c4.73 0 8.64 3.29 11.69 5.26C18.45 23.69 23 17.3 23 12.43a9.36 9.36 0 00-.12-1.93A6.72 6.72 0 0024 8.48a13.47 13.47 0 01-3.77 1.03A6.66 6.66 0 0024 6.35a13.48 13.48 0 01-4.17 1.59z"
+              ></path>
+            </svg>
+          </a>
+          <a href="#" class="ml-3 text-gray-500">
+            <svg
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              class="w-5 h-5"
+              viewBox="0 0 24 24"
+            >
+              <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+              <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"></path>
+              <path d="M17.5 6.5h.01"></path>
+            </svg>
+          </a>
+          <a href="#" class="ml-3 text-gray-500">
+            <svg
+              fill="currentColor"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="0"
+              class="w-5 h-5"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke="none"
+                d="M16 8a6 6 0 01-8 5.64v.06a6 6 0 1110-4.25A4 4 0 0119 8z"
+              ></path>
+            </svg>
+          </a>
+        </span>
+      </div>
+    </footer>
   </body>
 </html>
