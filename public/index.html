@@ -1,10 +1,238 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="garden">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="shortcut icon" href="./Image/logo.png" type="image/x-icon" />
+    <title>Crime | report</title>
     <link rel="stylesheet" href="./output.css" />
   </head>
-  <body></body>
+  <body>
+    <!-- header -->
+    <header class="">
+      <nav>
+        <div class="navbar bg-base-100 shadow-sm sticky">
+          <div class="navbar-start">
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h8m-8 6h16"
+                  />
+                </svg>
+              </div>
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+              >
+                <li><a>Home</a></li>
+                <li>
+                  <a>Complaints</a>
+                </li>
+                <li><a>Scams</a></li>
+              </ul>
+            </div>
+            <!-- logo -->
+            <a href="#">
+              <div class="w-full">
+                <div class="inline-flex items-center justify-center gap-0">
+                  <img
+                    src="./Image/logo.png"
+                    alt=""
+                    class="w-10 md:w-16 object-fill"
+                  />
+                  <span
+                    class="text-[0.6rem] -ml-2 md:text-sm font-bold w-[95px] md:-ml-2"
+                    >Crime Report Center</span
+                  >
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1">
+              <li><a>Home</a></li>
+              <li><a href="">Complaints</a></li>
+              <li><a>Scam</a></li>
+            </ul>
+          </div>
+          <div class="navbar-end">
+            <a class="btn">Lodge A Complain</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- main -->
+    <main class="mt-16">
+      <!-- hero section -->
+      <div id="hero" class="pb-16">
+        <!-- hero wrapper -->
+        <div
+          class="flex flex-col lg:flex-row lg:items-center lg:justify-center lg:gap-8"
+        >
+          <!-- img-wraper -->
+          <div class="lg:w-6/12">
+            <img src="./Image/hero.svg" alt="" />
+          </div>
+          <!-- text-content wrapper -->
+          <div class="px-8 lg:w-5/12 md:text-center lg:text-left">
+            <h1 class="text-3xl mt-8 lg:mt-0 mb-6">Protect one another</h1>
+            <!-- typography -->
+            <div class="space-y-5 lg:space-y-5 lg:text-sm">
+              <p>
+                The Crime Report Center, is the Nation’s central hub for
+                reporting crime. It is run by the CRC, the lead federal agency
+                for investigating crime. Here on our website, you can take two
+                vital steps to protecting our community and your own personal
+                security.
+              </p>
+              <p>
+                First, if you believe you have fallen victim to any crime, file
+                a complaint or report. Your information is invaluable to helping
+                the CRC and its partners bring criminals to justice.
+              </p>
+              <p>
+                Second, get educated about the latest and most harmful crime
+                threats and scams. By doing so, you will be better able to
+                protect yourself, your family, and your place of work.
+              </p>
+              <p>
+                Anyone can become a victim of internet crime. Take action for
+                yourself and others by reporting it. Reporting internet crimes
+                can help bring criminals to justice and make the internet a
+                safer place for us all.
+              </p>
+            </div>
+            <button class="btn btn-warning w-full mt-6">
+              File a Complaint
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- news -->
+      <section class="py-10 bg-white sm:py-16 lg:py-24">
+  <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
+    <div class="max-w-2xl mx-auto text-center">
+      <h2
+        class="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl"
+      >
+        Recent Crime Reports
+      </h2>
+      <p
+        class="max-w-xl mx-auto mt-4 text-base leading-relaxed text-gray-600"
+      >
+        Stay informed about the latest incidents in your area. These reports are updated regularly to help keep our community safe.
+      </p>
+    </div>
+
+    <div
+      class="grid max-w-md grid-cols-1 mx-auto mt-12 lg:max-w-full lg:mt-16 lg:grid-cols-3 gap-x-16 gap-y-12"
+    >
+      <div>
+        <a href="#" title="View report details" class="block aspect-w-4 aspect-h-3">
+          <img
+            class="object-cover w-full h-[90%]"
+            src="./Image/crime/burgke.jpg"
+            alt="Crime scene"
+          />
+        </a>
+        <span
+          class="inline-flex px-4 py-2 text-xs font-semibold tracking-widest uppercase rounded-full text-red-500 bg-red-100 mt-9"
+        >
+          Burglary
+        </span>
+        <p class="mt-6 text-xl font-semibold">
+          <a href="#" title="View report details" class="text-black">
+            Home Invasion on Maple Street
+          </a>
+        </p>
+        <p class="mt-4 text-gray-600">
+          A home invasion was reported on Maple Street in the early hours of Monday. The suspect is still at large.
+        </p>
+        <div
+          class="h-0 mt-6 mb-4 border-t-2 border-gray-200 border-dashed"
+        ></div>
+        <span
+          class="block text-sm font-bold tracking-widest text-gray-500 uppercase"
+        >
+          Officer Daniels . July 15, 2024
+        </span>
+      </div>
+
+      <div>
+        <a href="#" title="View report details" class="block aspect-w-4 aspect-h-3">
+          <img
+            class="object-cover w-full h-[90%]"
+            src="./Image/crime/vand.jpg"
+            alt="Crime scene"
+          />
+        </a>
+        <span
+          class="inline-flex px-4 py-2 text-xs font-semibold tracking-widest uppercase rounded-full text-blue-500 bg-blue-100 mt-9"
+        >
+          Vandalism
+        </span>
+        <p class="mt-6 text-xl font-semibold">
+          <a href="#" title="View report details" class="text-black">
+            Graffiti Found on City Hall Walls
+          </a>
+        </p>
+        <p class="mt-4 text-gray-600">
+          City Hall was vandalized with graffiti last night. Authorities are reviewing security footage to identify the culprit.
+        </p>
+        <div
+          class="h-0 mt-6 mb-4 border-t-2 border-gray-200 border-dashed"
+        ></div>
+        <span
+          class="block text-sm font-bold tracking-widest text-gray-500 uppercase"
+        >
+          Officer Smith . July 14, 2024
+        </span>
+      </div>
+
+      <div>
+        <a href="#" title="View report details" class="block aspect-w-4 aspect-h-3">
+          <img
+            class="object-cover w-full h-[90%]"
+            src="./Image/crime/car.jpg"
+            alt="Crime scene"
+          />
+        </a>
+        <span
+          class="inline-flex px-4 py-2 text-xs font-semibold tracking-widest uppercase rounded-full text-green-500 bg-green-100 mt-9"
+        >
+          Theft
+        </span>
+        <p class="mt-6 text-xl font-semibold">
+          <a href="#" title="View report details" class="text-black">
+            Car Stolen from Downtown Area
+          </a>
+        </p>
+        <p class="mt-4 text-gray-600">
+          A car was stolen from the downtown area on Sunday afternoon. Witnesses described the suspect as a male in his 20s.
+        </p>
+        <div
+          class="h-0 mt-6 mb-4 border-t-2 border-gray-200 border-dashed"
+        ></div>
+        <span
+          class="block text-sm font-bold tracking-widest text-gray-500 uppercase"
+        >
+          Officer Lee . July 13, 2024
+        </span>
+      </div>
+    </div>
+  </div>
+</section>
+
+    </main>
+  </body>
 </html>
