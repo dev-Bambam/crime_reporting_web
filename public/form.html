@@ -87,10 +87,8 @@
       }
     </style>
   </head>
-  <body
-    class=" "
-  >
-  <header class="">
+  <body class=" ">
+    <header class="">
       <nav>
         <div class="navbar bg-base-100 shadow-sm sticky">
           <div class="navbar-start">
@@ -116,7 +114,7 @@
                 class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
               >
                 <li><a href="index.html">Home</a></li>
-                <li><a href="#complain">File a Report</a></li>
+                <li><a href="complaint.html">File a Report</a></li>
                 <li><a href="#crime">Recent Crimes</a></li>
                 <li><a href="#stat">Statistics</a></li>
                 <li><a href="#about">About Us</a></li>
@@ -142,7 +140,7 @@
           <div class="navbar-center hidden lg:flex">
             <ul class="menu menu-horizontal px-1">
               <li><a href="index.html">Home</a></li>
-              <li><a href="#complain">File a Report</a></li>
+              <li><a href="complaint.html">File a Report</a></li>
               <li><a href="#crime">Recent Crimes</a></li>
               <li><a href="#stat">Statistics</a></li>
               <li><a href="#about">About Us</a></li>
@@ -154,7 +152,7 @@
         </div>
       </nav>
     </header>
-    <section class=" md:w-[60%] my-10 mx-10 md:mx-auto">
+    <section class="md:w-[60%] my-10 mx-10 md:mx-auto">
       <form action="#" class="bg-white rounded-md p-2 md:px-4">
         <h1 class="text-2xl font-bold text-grey900 my-3">File a Complaint</h1>
         <!-- first and last name div -->
@@ -189,18 +187,23 @@
           <label for="email" class="text-grey500 text-[16px]"
             >Email <span class="text-g600">*</span>
           </label>
-          <input type="email" required id="email"class="block border w-full rounded-md h-10 px-2 hover:border-g600 focus:border-g600 focus:outline-none active:border-g600"/>
+          <input
+            type="email"
+            required
+            id="email"
+            class="block border w-full rounded-md h-10 px-2 hover:border-g600 focus:border-g600 focus:outline-none active:border-g600"
+          />
         </div>
         <!-- query type -->
         <div class="mt-4">
           <p class="text-grey500 text-[16px] mb-3">
             Complaint Type <span class="text-g600">*</span>
           </p>
-          <div 
-              id="radioButton-container"
+          <div
+            id="radioButton-container"
             class="space-y-4 lg:flex lg:space-y-0 lg:justify-between lg:w-full lg:gap-3"
           >
-          <!-- radio buttons -->
+            <!-- radio buttons -->
             <div
               class="w-full border rounded-md px-3 py-2 hover:border-g600 flex items-center"
             >
@@ -251,7 +254,7 @@
           </div>
         </div>
         <!-- submit button -->
-        <button 
+        <button
           type="submit"
           id="btn"
           class="text-center w-full text-white text-2xl py-3 rounded-md bg-g600 mb-6"
@@ -260,7 +263,7 @@
         </button>
       </form>
     </section>
-     <!-- Footer -->
+    <!-- Footer -->
     <footer class="bg-base-300 text-gray-600 body-font">
       <div
         class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col"
