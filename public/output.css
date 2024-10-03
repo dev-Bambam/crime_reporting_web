@@ -2060,72 +2060,12 @@ html {
   position: sticky;
 }
 
-.top-3 {
-  top: 0.75rem;
-}
-
 .left-5 {
   left: 1.25rem;
 }
 
-.left-1 {
-  left: 0.25rem;
-}
-
-.left-16 {
-  left: 4rem;
-}
-
-.right-16 {
-  right: 4rem;
-}
-
-.left-36 {
-  left: 9rem;
-}
-
-.left-\[\] {
-  left: ;
-}
-
-.left-\[600px\] {
-  left: 600px;
-}
-
-.left-\[100px\] {
-  left: 100px;
-}
-
-.left-3 {
-  left: 0.75rem;
-}
-
-.left-32 {
-  left: 8rem;
-}
-
-.left-6 {
-  left: 1.5rem;
-}
-
-.left-64 {
-  left: 16rem;
-}
-
-.top-1 {
-  top: 0.25rem;
-}
-
-.top-16 {
-  top: 4rem;
-}
-
 .top-6 {
   top: 1.5rem;
-}
-
-.bottom-0 {
-  bottom: 0px;
 }
 
 .z-\[1\] {
@@ -2354,6 +2294,10 @@ html {
   margin-bottom: calc(1.25rem * var(--tw-space-y-reverse));
 }
 
+.rounded-2xl {
+  border-radius: 1rem;
+}
+
 .rounded-box {
   border-radius: var(--rounded-box, 1rem);
 }
@@ -2364,18 +2308,6 @@ html {
 
 .rounded-md {
   border-radius: 0.375rem;
-}
-
-.rounded-lg {
-  border-radius: 0.5rem;
-}
-
-.rounded-xl {
-  border-radius: 0.75rem;
-}
-
-.rounded-2xl {
-  border-radius: 1rem;
 }
 
 .border {
