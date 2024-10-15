@@ -155,7 +155,9 @@
     <section class="md:w-[60%] my-10 mx-10 md:mx-auto">
       <form action="#" class="bg-white rounded-md p-2 md:px-4">
         <h1 class="text-2xl font-bold text-grey900 my-3">File a Complaint</h1>
-        <!-- first and last name div -->
+        <!-- container -->
+        <div class="space-y-5">
+          <!-- first and last name div -->
         <div
           class="space-y-4 lg:flex lg:space-y-0 lg:justify-between lg:w-full lg:gap-3"
         >
@@ -182,7 +184,7 @@
             />
           </div>
         </div>
-        <!-- email  -->
+        <!-- department  -->
         <div>
           <label for="email" class="text-grey500 text-[16px]"
             >Department <span class="text-g600">*</span>
@@ -193,6 +195,34 @@
             id="email"
             class="block border w-full rounded-md h-10 px-2 hover:border-g600 focus:border-g600 focus:outline-none active:border-g600"
           />
+        </div>
+        <!-- phone number and email -->
+        <div
+          class="space-y-4 lg:flex lg:space-y-0 lg:justify-between lg:w-full lg:gap-3"
+        >
+          <div class="lg:w-full">
+            <label for="tel" class="text-grey500 text-[16px]"
+              > Phone Number <span class="text-g600">*</span>
+            </label>
+            <input
+              type="tel"
+              required
+              id="tel"
+              class="block border w-full rounded-md h-10 px-2 hover:border-g600 focus:border-g600 focus:outline-none active:border-g600"
+            />
+          </div>
+          <div class="lg:w-full">
+            <label for="last-name" class="text-grey500 text-[16px]"
+              >Email <span class="text-g600">*</span>
+            </label>
+            <input
+              type="email"
+              required
+              id="email"
+              class="block border w-full rounded-md h-10 px-2 hover:border-g600 focus:border-g600 focus:outline-none active:border-g600"
+            />
+          </div>
+        </div>
         </div>
         <!-- query type -->
         <div class="mt-4">
@@ -349,7 +379,7 @@
               viewBox="0 0 24 24"
             >
               <path
-                stroke="none"
+                stroke="none" 
                 d="M16 8a6 6 0 01-8 5.64v.06a6 6 0 1110-4.25A4 4 0 0119 8z"
               ></path>
             </svg>
